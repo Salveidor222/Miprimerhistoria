@@ -6,6 +6,7 @@ int main()
     int num;
     do
     {
+        printf("Bienvenido al sistema de calculadora del cuadrado!");
         printf("1. Calcular cuadrado de un numero\n");
         printf("2. Salir\n");
         printf("Elige una opcion: ");
@@ -19,7 +20,7 @@ int main()
             printf("El resultado es: %d\n", num * num);
             break;
         case 2:
-            printf("Saliendo\n");
+            printf("Gracias por usarme gracias!\n");
             break;
         default:
             printf("Opcion no valida\n");
