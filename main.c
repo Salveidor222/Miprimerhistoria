@@ -3,6 +3,7 @@
 int main()
 {
     int opcion;
+    int num;
     do
     {
         printf("1. Calcular cuadrado de un numero\n");
@@ -13,7 +14,9 @@ int main()
         switch (opcion)
         {
         case 1:
-            printf("Construyendo...\n");
+            printf("Ingresa un numero: ");
+            scanf("%d", &num);
+            printf("El resultado es: %d\n", num * num);
             break;
         case 2:
             printf("Saliendo\n");
